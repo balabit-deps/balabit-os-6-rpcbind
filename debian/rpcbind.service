@@ -17,3 +17,4 @@ Restart=on-failure
 
 [Install]
 Also=rpcbind.socket
+WantedBy=multi-user.target

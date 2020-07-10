@@ -1,3 +1,11 @@
+rpcbind (0.2.3-0.2ubuntu0.1) xenial; urgency=medium
+
+  * d/rpcbind.service: Add WantedBy=multi-user.target, this should ensure
+    that rpcbind daemon is started before nis (Closes: #805167, LP: #1558196)
+    Thanks to Laurent Bigonville <bigon@debian.org>.
+
+ -- Sergio Durigan Junior <sergio.durigan@canonical.com>  Fri, 10 Jul 2020 14:26:18 -0400
+
 rpcbind (0.2.3-0.2) unstable; urgency=medium
 
   * Non-maintainer upload.
